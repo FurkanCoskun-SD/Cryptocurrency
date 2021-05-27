@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coin_markets"
+    app:startDestination="@id/coinMarketsFragment">
+
+    <fragment
+        android:id="@+id/coinMarketsFragment"
+        android:name="com.furkancoskun.cryptocurrency.ui.coinMarkets.CoinMarketsFragment"
+        android:label="fragment_coin_markets"
+        tools:layout="@layout/fragment_coin_markets" >
+
+        <action
+            android:id="@+id/action_coinMarketsFragment_to_coinMarketFragment"
+            app:destination="@id/coinMarketFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/coinMarketFragment"
+        android:name="com.furkancoskun.cryptocurrency.ui.coinMarket.CoinMarketFragment"
+        android:label="fragment_coin_market"
+        tools:layout="@layout/fragment_coin_market" >
+        <argument
+            android:name="coinsListEntity"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

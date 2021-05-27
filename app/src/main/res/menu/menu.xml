@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/coin_markets"
+        android:icon="@drawable/selector_menu_coin_markets_item"
+        android:title="@string/TitleCoinMarkets" />
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/selector_menu_favorites_item"
+        android:title="@string/TitleFavorites" />
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cryptocurrency</string>
+
+    <!-- Constants -->
+    <string name="alert_type_done_icon">DoneIcon.json</string>
+    <string name="alert_type_warning_icon">WarningIcon.json</string>
+    <string name="alert_type_info_icon">InfoIcon.json</string>
+
+    <!-- Button -->
+    <string name="BtnCancel">Vazgeç</string>
+    <string name="BtnOkay">Tamam</string>
+
+    <string name="TitleCoinMarkets">Madeni Paralar</string>
+    <string name="TitleFavorites">Favoriler</string>
+
+    <!-- Server -->
+    <string name="ERROR">Bir hata oluştu. Lütfen tekrar deneyin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
